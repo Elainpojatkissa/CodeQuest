@@ -36,6 +36,30 @@
         <!-- Haasteet ja kilpailut tänne -->
     </section>
 
+    <section id="admin-section" style="display: none;">
+    <h2>Kooditehtävät</h2>
+    
+    <!-- Lomake uuden tehtävän lisäämistä varten -->
+    <div id="new-task">
+        <h3>Lisää uusi tehtävä</h3>
+        <textarea id="task-description" placeholder="Tehtävän kuvaus..."></textarea>
+        <textarea id="task-solution" placeholder="Esimerkkiratkaisu..."></textarea>
+        <button onclick="addTask()">Lisää tehtävä</button>
+    </div>
+
+    <!-- Tehtävät lisätään tähän -->
+    <div id="task-list"></div>
+</section>
+
+<!-- Kirjautumislomake -->
+<section id="login-section">
+    <h2>Syötä salasana</h2>
+    <input type="password" id="admin-password" placeholder="Salasana">
+    <button onclick="login()">Kirjaudu sisään</button>
+    <p id="login-error" style="color: red; display: none;">Virheellinen salasana, yritä uudelleen.</p>
+</section>
+
+
     <footer>
         <p>&copy; 2025 Koodauksen oppiminen</p>
     </footer>
