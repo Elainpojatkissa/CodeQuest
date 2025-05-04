@@ -1,4 +1,5 @@
-const adminPassword = "salasana123"; // Salasana, joka on vain sinulle tiedossa
+// Salasana, joka on vain sinulle tiedossa
+const adminPassword = "3542"; // Muokkaa tämä omaan salasanaasi
 
 // Kirjautumisfunktio
 function login() {
