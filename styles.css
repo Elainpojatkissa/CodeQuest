@@ -49,3 +49,25 @@ footer p {
     font-size: 1rem;
     color: #bbb;
 }
+#login-section {
+    padding: 20px;
+    text-align: center;
+}
+
+#login-section input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#login-section button {
+    padding: 10px 20px;
+    background-color: #00ff00;
+    color: #222;
+    border: none;
+    cursor: pointer;
+}
+
+#login-section button:hover {
+    background-color: #009900;
+}
+
